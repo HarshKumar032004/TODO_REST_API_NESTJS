@@ -10,7 +10,7 @@ import { JwtModule } from '@nestjs/jwt';
     DatabaseModule,
     PassportModule,
     JwtModule.register({
-      secret: 'secret',
+      secret: 'Secret',
       signOptions: {
         expiresIn: 'In'
       }
